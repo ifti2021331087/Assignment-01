@@ -1,4 +1,7 @@
 /* <<<<......shared styles......>>>> */
+.azeret-mono{
+    font-family: "Azeret Mono", monospace;
+}
 .common-title{
     font-size: 32px;
     color: #0D1321;
@@ -12,8 +15,11 @@
 .common-description{
     font-size: 16px;
     color: #0D1321;
-    /* padding-top: 22px;
-    padding-bottom: 30px; */
+}
+.anchor{
+    font-size: 16px;
+    font-weight: bold;
+    color: #0D1321;
 }
 .center{
     text-align: center;
@@ -148,3 +154,23 @@ main{
     max-width: 365px;
     max-height: 300px;
 }
+
+.part-04-02{
+    margin-top: 111px;
+}
+.part-04-02-title{
+    margin:24px 0px 48px 0px;
+}
+.next-target1,.next-target2,.next-target3{
+    border:0.5px solid rgba(13, 19, 33, 0.15);
+    margin-bottom: 24px;
+    display: flex;
+    gap:24px;
+    padding: 40px;
+}
+.part-04-02-desc{
+    padding-top: 8px;
+    padding-bottom: 24px;
+}
+
+/* <<<.....part-05.....>>> */
