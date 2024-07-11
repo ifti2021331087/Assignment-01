@@ -3,7 +3,11 @@
     font-size: 32px;
     color: #0D1321;
     font-weight: bolder;
-    text-align: center;
+}
+.pic-title{
+    font-size: 24;
+    font-weight: bolder;
+    color: #0D1321;
 }
 .common-description{
     font-size: 16px;
@@ -73,11 +77,11 @@ main{
     margin-bottom: 32px;
     justify-content: center;
 }
-.parts1{
+/* .parts1{
 }
 .parts2{
 
-}
+} */
 .parts2-blog{
     padding-right: 101px;
 }
@@ -106,3 +110,41 @@ main{
 }
 
 /* <<<<.....part-04.....>>>> */
+.part-04{
+    margin-top: 150px;
+}
+.pic-title{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #0D1321;
+    padding-top: 24px;
+}
+.tag-desc{
+    padding-top: 8px;
+    padding-bottom: 24px;
+}
+.current-targets{
+    margin-top: 48px;
+    display: flex;
+    gap:24px;
+    /* align-items: center; */
+    justify-content:space-evenly;
+}
+.target1{
+    padding: 40px;
+    background-color:rgba(255, 71, 30, 0.05);
+    max-width: 365px;
+    max-height: 300px;
+}
+.target2{
+    padding: 40px;
+    background-color:rgba(0, 76, 232, 0.05);
+    max-width: 365px;
+    max-height: 300px;
+}
+.target3{
+    padding: 40px;
+    background-color: rgba(255, 223, 0, 0.05);
+    max-width: 365px;
+    max-height: 300px;
+}
