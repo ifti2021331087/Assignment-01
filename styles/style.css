@@ -55,7 +55,9 @@
     padding: 15px 17px;
 
 }
-
+.part-01-button:active{
+    transform: translateY(4px);
+}
 /* <<<..part-02..>>> */
 main{
     padding-left: 150px;
@@ -107,6 +109,7 @@ main{
     width: 100%;
     text-align: center;
     border: 32px #0D1321;
+    border-radius: 5px;
     padding: 20px;
     border: 0.5px solid #ccc;
     display: inline-block;
@@ -135,6 +138,7 @@ main{
     gap:24px;
     /* align-items: center; */
     justify-content:space-evenly;
+    
 }
 .target1{
     padding: 40px;
@@ -163,6 +167,7 @@ main{
 }
 .next-target1,.next-target2,.next-target3{
     border:0.5px solid rgba(13, 19, 33, 0.15);
+    border-radius: 5px;
     margin-bottom: 24px;
     display: flex;
     gap:24px;
@@ -173,4 +178,50 @@ main{
     padding-bottom: 24px;
 }
 
-/* <<<.....part-05.....>>> */
+/* <<<.....footer.....>>> */
+footer{
+    background-image: url('../assets/handshake.jpg');
+    height: 400px;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+footer input[type="text"]{
+    border-radius: 5px;
+    margin-top: 24px;
+    padding: 20px 215px 20px 20px;
+    height: 32px;
+    width: 500px;
+
+}
+.button1{
+    border-radius: 5px;
+     /* margin-top: 24px;
+     /* width: 120px; */
+     /* width: 550px; */
+     max-height: 120px;
+     width: 120px;
+     padding: 30px 20px;
+}
+.submit-color{
+    font-size: 20;
+    font-weight: bold;
+    color: #0D1321;
+}
+.last{
+    display: flex;
+}
+.ojana{
+    /* padding: 80px 48px; */
+    padding-top: 100px;
+}
+.footer-title{
+    /* padding: 80px; */
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.footer-desc{
+    color: #FFFFFF;
+    padding-top: 20px;
+}
